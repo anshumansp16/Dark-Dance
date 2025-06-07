@@ -1,7 +1,13 @@
 doctype html
 html
   head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
     title Dark Dance Academy
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin)
+    link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap', rel='stylesheet')
+    script(src='/static/index.js')
     block scripts
     block style
     link(rel='icon', type='image/png', href='/static/fav.ico')
@@ -16,7 +22,7 @@ html
             li #[a(href="/") Classes]
             li #[a(href="/contact") Contact Us]
     block content
-    footer#footer 
+    footer#footer
         div.box#box-1
             h4 Menu
             ul
@@ -38,7 +44,6 @@ html
                 li About
                 li Services
                 li Classes
-
         div.box#box-4
             h4 Menu
             ul
@@ -46,7 +51,6 @@ html
                 li About
                 li Services
                 li Classes
-
         div.box#box-5
             ul
                 li Copyright ©2023 All Rights Reserved
